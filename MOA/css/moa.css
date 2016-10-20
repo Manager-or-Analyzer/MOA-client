@@ -1,0 +1,117 @@
+@import url(http://fonts.googleapis.com/earlyaccess/jejugothic.css);
+@import url(http://fonts.googleapis.com/earlyaccess/cwtexhei.css);
+
+body {
+    font-family: "cwTeXHei","Jeju Gothic","Segoe UI", "Lucida Grande", Tahoma, sans-serif;
+    font-size: 100%;
+    min-width: 390px;
+    width: auto;
+    height: 100%;
+    margin-right: 3px;
+   
+       
+}
+hr {border-top:0.7px solid #dcdcdc ; margin-left: 70px; margin-top: -5px; margin-bottom: -5px}
+#default_image{margin-left: 150px; margin-top: 10px;  width: 80px;height: 70px; }
+#snippetSpace img{float: left; width: 40px;height: 40px;  padding:-5px; margin-right: 20px; border-radius : 50%;margin-left: 15px; margin-top: 20px}
+.snippet ,#snippetSpace{list-style: none; margin: 0;  padding: 2px;width: 360px; margin:3px ; }
+.snippet{ margin-left: 10px; min-height: 60px; height: auto; position: relative; }
+
+.url{color: black; text-decoration: none}
+.description{font-size: 6px;}
+
+.keyword{ margin-bottom: 0px; margin-top: 7px; margin-left: 70px;color: #1E3269 ; font-weight: bold}
+.title{ margin-top: 13px;padding-bottom: 2px; font-size: 15px; max-height: 15px; max-width: 270px; overflow:hidden; white-space: nowrap;text-overflow:ellipsis;}
+h4{padding-bottom: 5px; font-size: 13px}
+
+svg {width: 390px; height: 380px;  margin-top: 0px; padding-bottom: 4px; margin-bottom: -20px }
+
+text {
+  font: 1px "cwTeXHei","Jeju Gothic",sans-serif;
+}
+
+#userID{font-size: 12px; margin-top: 20px; margin-left: 9px; float: left; max-width: 150px;word-break:break-all;
+}
+
+/*
+  Hide radio button (the round disc)
+  we will use just the label to create pushbutton effect
+*/
+input[type=radio], input[type=checkbox] {
+		display:none;
+	}
+
+input[type=radio] + label, input[type=checkbox] + label {
+        
+		display:inline-block;
+		margin:-2px;
+		padding: 4px 12px;
+		margin-top: 20px;
+		font-size: 12px;
+		line-height: 17px;
+		color: #333;
+		text-align: center;
+		text-shadow: 0 1px 1px rgba(255,255,255,0.75);
+		vertical-align: middle;
+		cursor: pointer;
+		background-color: #f5f5f5;
+		background-image: -moz-linear-gradient(top,#fff,#e6e6e6);
+		background-image: -webkit-gradient(linear,0 0,0 100%,from(#fff),to(#e6e6e6));
+		background-image: -webkit-linear-gradient(top,#fff,#e6e6e6);
+		background-image: -o-linear-gradient(top,#fff,#e6e6e6);
+		background-image: linear-gradient(to bottom,#fff,#e6e6e6);
+		background-repeat: repeat-x;
+		border: 1px solid #ccc;
+		border-color: #e6e6e6 #e6e6e6 #bfbfbf;
+		border-color: rgba(0,0,0,0.1) rgba(0,0,0,0.1) rgba(0,0,0,0.25);
+		border-bottom-color: #b3b3b3;
+		filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff',endColorstr='#ffe6e6e6',GradientType=0);
+		filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+		-webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,0.2),0 1px 2px rgba(0,0,0,0.05);
+		-moz-box-shadow: inset 0 1px 0 rgba(255,255,255,0.2),0 1px 2px rgba(0,0,0,0.05);
+		box-shadow: inset 0 1px 0 rgba(255,255,255,0.2),0 1px 2px rgba(0,0,0,0.05);
+	}
+
+	 input[type=radio]:checked + label, input[type=checkbox]:checked + label{
+		   background-image: none;
+		outline: 0;
+		-webkit-box-shadow: inset 0 2px 4px rgba(0,0,0,0.15),0 1px 2px rgba(0,0,0,0.05);
+		-moz-box-shadow: inset 0 2px 4px rgba(0,0,0,0.15),0 1px 2px rgba(0,0,0,0.05);
+		box-shadow: inset 0 2px 4px rgba(0,0,0,0.15),0 1px 2px rgba(0,0,0,0.05);
+			background-color:#e0e0e0;
+	}
+#periodButton{ float: left; margin-left: 10px; margin-top: -7px}
+#calendar{float: right; margin-top: -23px; margin-right: 10px}
+.ui-datepicker{ font-size: 12px; width: 160px; }
+.ui-datepicker select.ui-datepicker-month{ width:30%; font-size: 11px; }
+.ui-datepicker select.ui-datepicker-year{ width:40%; font-size: 11px; }
+.ui-datepicker-trigger{margin-left:5px; vertical-align:middle; cursor:pointer;}
+
+#setBubbleNum{float: left; margin-top: 8px; margin-left: 10px; width: 100px}
+
+.range, .range2{
+vertical-align: middle;
+text-align: center;
+/*//margin-right: -40px ;*/
+margin-top: 10px;
+margin-bottom: -20px;
+}
+#warningMsg img{ width: 350px;height: 70px; padding:0;margin-top:170px; margin-left: 20px}
+.range2{margin-top: 0; }
+
+#searchResult{
+    text-align: center;
+    margin-top:20px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    font-weight: lighter;
+    vertical-align: middle;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#searchKey{font-style: italic; color: crimson;}
+/*//#paginationSnippet{position: absolute;}*/
+
+.pagination{display:inline-block;padding-left:0;margin:21px 0;border-radius:4px;}.pagination>li{display:inline}.pagination>li>a,.pagination>li>span{position:relative;float:left;padding:8px 12px;line-height:1.42857143;text-decoration:none;color:#eb6864;background-color:#ffffff;border:1px solid #dddddd;margin-left:-1px}.pagination>li:first-child>a,.pagination>li:first-child>span{margin-left:0;border-bottom-left-radius:4px;border-top-left-radius:4px}.pagination>li:last-child>a,.pagination>li:last-child>span{border-bottom-right-radius:4px;border-top-right-radius:4px}.pagination>li>a:hover,.pagination>li>span:hover,.pagination>li>a:focus,.pagination>li>span:focus{z-index:2;color:#e22620;background-color:#eeeeee;border-color:#dddddd}.pagination>.active>a,.pagination>.active>span,.pagination>.active>a:hover,.pagination>.active>span:hover,.pagination>.active>a:focus,.pagination>.active>span:focus{z-index:3;color:#999999;background-color:#f5f5f5;border-color:#dddddd;cursor:default}.pagination>.disabled>span,.pagination>.disabled>span:hover,.pagination>.disabled>span:focus,.pagination>.disabled>a,.pagination>.disabled>a:hover,.pagination>.disabled>a:focus{color:#999999;background-color:#ffffff;border-color:#dddddd;cursor:not-allowed}.pagination-lg>li>a,.pagination-lg>li>span{padding:14px 16px;font-size:19px;line-height:1.3333333}.pagination-lg>li:first-child>a,.pagination-lg>li:first-child>span{border-bottom-left-radius:6px;border-top-left-radius:6px}.pagination-lg>li:last-child>a,.pagination-lg>li:last-child>span{border-bottom-right-radius:6px;border-top-right-radius:6px}.pagination-sm>li>a,.pagination-sm>li>span{padding:5px 10px;font-size:13px;line-height:1.5}.pagination-sm>li:first-child>a,.pagination-sm>li:first-child>span{border-bottom-left-radius:3px;border-top-left-radius:3px}.pagination-sm>li:last-child>a,.pagination-sm>li:last-child>span{border-bottom-right-radius:3px;border-top-right-radius:3px}
+
+#paginationSnippet{margin-top: 0; }

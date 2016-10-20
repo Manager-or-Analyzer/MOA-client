@@ -1,0 +1,14 @@
+.DS_Store
+
+.vscode
+
+*.crx
+*.zip
+*.pem
+
+텍스트마이닝*
+
+*.min.js
+*.min.css
+
+*.dev
